@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-native-biometric",
+  "name": "jbaubree/capacitor-native-biometric",
   "version": "3.0.3",
   "description": "This plugin gives access to the native biometric apis for android and iOS",
   "main": "dist/esm/index.js",
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/epicshaggy/capacitor-native-biometric"
+    "url": "https://github.com/jbaubree/capacitor-native-biometric"
   },
   "bugs": {
-    "url": "https://github.com/epicshaggy/capacitor-native-biometric/issues"
+    "url": "https://github.com/jbaubree/capacitor-native-biometric/issues"
   }
 }

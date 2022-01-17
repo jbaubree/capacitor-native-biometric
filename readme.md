@@ -4,12 +4,12 @@ Use biometrics confirm device owner presence or authenticate users. A couple of 
 
 ## Installation (Only supports Capacitor 3)
 
-- `npm i capacitor-native-biometric`
+- `npm i jbaubree/capacitor-native-biometric`
 
 ## Usage
 
 ```ts
-import { NativeBiometric } from "capacitor-native-biometric";
+import { NativeBiometric } from "jbaubree/capacitor-native-biometric";
 
 // Check if biometrics are available and which type is supported
 NativeBiometric.isAvailable().then(
