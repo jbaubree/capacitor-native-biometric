@@ -45,7 +45,7 @@ public class AuthAcitivy extends AppCompatActivity {
             };
         }
 
-        maxRetries = getIntent().hasExtra("retries") ? getIntent().getIntExtra("retries") : 5;
+        maxRetries = getIntent().getIntExtra("retries", 5);
         currentRetries = 0;
 
         promptInfo = new BiometricPrompt.PromptInfo.Builder()
